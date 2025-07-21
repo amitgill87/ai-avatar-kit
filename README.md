@@ -1,4 +1,4 @@
-# AIAvatarKit
+# AI-Avatar-Kit
 
 🥰 Building AI-based conversational avatars lightning fast ⚡️💬
 
@@ -272,7 +272,7 @@ aiavatar_app = AIAvatar(
 )
 ```
 
-You can also set speech controller that uses alternative Text-to-Speech services. We support Azure, Google, OpenAI and any other TTS services supported by [SpeechGateway](https://github.com/uezo/speech-gateway) such as Style-Bert-VITS2 and NijiVoice.
+You can also set speech controller that uses alternative Text-to-Speech services. We support Azure, Google, OpenAI and any other TTS services supported by [SpeechGateway] such as Style-Bert-VITS2 and NijiVoice.
 
 ```python
 from aiavatar.sts.tts.azure import AzureSpeechSynthesizer
@@ -1625,7 +1625,7 @@ To recall information from past conversations across different contexts, a long-
 
 To store conversation history, define a function decorated with `@aiavatar_app.sts.on_finish`. To retrieve memories from the conversation history, call the search function of the long-term memory service as a tool.
 
-Below is an example using [ChatMemory](https://github.com/uezo/chatmemory).
+Below is an example using [ChatMemory].
 
 ```python
 # Create client for ChatMemory
